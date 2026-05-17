@@ -49,7 +49,6 @@ h6 {
 h1 {
     font-size: 48px;
     line-height: 1.64;
-    /* Добавляем, чтобы строки не натыкались друг на друга */
     margin-top: 152px;
     margin-bottom: 32px;
 }
@@ -69,25 +68,21 @@ ul {
     padding: 0;
     margin: 0;
     list-style: none;
-    /* Можно сразу перенести сюда из селектора li */
 }
 
 li {
     list-style: none;
 }
 
-/* 1. Измененный контейнер под 1200px без жестких падингов */
 .container {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     padding: 0 20px;
-    /* Технический отступ, чтобы контент не лип к краям на экранах меньше 1200px */
 }
 
 .container--padding {
     padding-right: 55px;
-
 }
 
 .container--left {
@@ -110,9 +105,7 @@ li {
             justify-content: space-between;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    /* Чтобы ссылки не слипались и могли переноситься */
     gap: 15px;
-    /* Минимальный отступ между ссылками, если экран станет совсем узким */
 }
 
 .navigation__link-modifier {
@@ -170,16 +163,13 @@ li {
     max-width: 225px;
     height: 65px;
     padding: 0 15px !important;
-
     background-color: var(--blue-background);
     color: var(--whire);
     border: none;
     outline: none;
-
     margin-bottom: 141px;
     letter-spacing: 0.1em;
     text-align: center;
-
 }
 
 .button:hover {
@@ -228,13 +218,10 @@ li {
             flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    /* Разрешаем перенос элементов на новую строку */
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
     padding-left: 31px;
-
-    /* Центрируем иконки, когда они переносятся */
     padding-right: 95px;
 }
 
@@ -250,11 +237,6 @@ li {
         -ms-flex-align: center;
             align-items: center;
     gap: 20px;
-
-    /* flex-grow: 0 (не растягиваться без повода)
-      flex-shrink: 0 (не сжиматься до неузнаваемости, держать форму)
-      flex-basis: auto (брать ширину по своему контенту)
-    */
     -webkit-box-flex: 0;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
@@ -270,7 +252,6 @@ li {
     font-weight: 500;
     line-height: 1;
     padding-top: 7px;
-
 }
 
 .process-section {
@@ -304,13 +285,10 @@ li {
     margin-right: 24px;
 }
 
-/* 2. Настройки для блока картинки (1100px) */
 .flex__block-img--position {
     position: relative;
     max-width: 1100px;
     width: 100%;
-
-    /* Центрирует блок внутри контейнера */
 }
 
 .block-img__foto--mod {
@@ -328,14 +306,9 @@ li {
         -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     z-index: 3;
-
-    /* Делаем иконку адаптивной */
     width: 15%;
-    /* Иконка будет занимать 15% от ширины видео-баннера */
     max-width: 100px;
-    /* Но на больших экранах она не станет огромной, максимум 100px */
     min-width: 45px;
-    /* И на совсем маленьких телефонах не превратится в точку */
     height: auto;
 }
 
