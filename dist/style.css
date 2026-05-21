@@ -144,18 +144,15 @@ li {
   padding: 0;
 }
 
-.navigation__link {
+.navigation__link--mod {
   display: block;
   line-height: 1;
   color: var(--paragraph-nav-black);
   cursor: pointer;
-}
-
-.navigation__link--mod {
   text-transform: uppercase;
 }
 
-.navigation__link:hover {
+.navigation__link--mod:hover {
   color: var(--blue-background);
   font-weight: 500;
   -webkit-transition: all 1s;
