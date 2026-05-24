@@ -14,6 +14,16 @@
   gap: 20px;
   flex: 0 0 auto;
 
+
+
+  &--padding-right {
+    @media (min-width: 720px) {
+
+      padding-right: 19px;
+
+    }
+  }
+
   &__accent-text {
     color: $whire;
     line-height: 164%;
@@ -30,11 +40,4 @@
 
 .icon-group--padding-left {
   padding-left: 4px;
-}
-
-
-@media (min-width: 720px) {
-  .icon-group--padding-right {
-    padding-right: 19px;
-  }
 }

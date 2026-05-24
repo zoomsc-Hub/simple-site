@@ -36,6 +36,11 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 5px;
+
+  @media (max-width: $max-w) {
+    gap: 40px;
+    justify-content: center;
+  }
 }
 
 .container-process--flex {

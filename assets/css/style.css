@@ -263,6 +263,7 @@ li{
 .icon-group--padding-left{
   padding-left:4px;
 }
+
 .process-section{
   background-color:rgb(238, 239, 241);
 }
@@ -331,5 +332,25 @@ li{
 @media (min-width: 720px){
   .icon-group--padding-right{
     padding-right:19px;
+  }
+}
+@media (max-width: 1110px){
+  .container--flex{
+    gap:40px;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
+  }
+}
+@media (max-width: 450px){
+  .navigation__list{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+            flex-direction:column;
+    gap:10px;
   }
 }
