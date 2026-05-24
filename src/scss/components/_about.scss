@@ -1,0 +1,29 @@
+@use '../abstracts' as *;
+
+
+
+
+.about-section {}
+
+.about-content {
+  margin: 0 auto;
+  max-width: $max-w-about;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__tittle--indent {
+    font-weight: 500;
+    margin: 0;
+    padding: 117px 0 45px;
+  }
+
+  &__paragraf {
+    font-size: 16px;
+    line-height: 1.64;
+    text-align: center;
+    padding-bottom: 90px;
+    letter-spacing: 0;
+  }
+}

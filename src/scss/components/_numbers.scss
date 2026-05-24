@@ -1,0 +1,40 @@
+@use '../abstracts' as *;
+
+.icon-group__text-group {}
+
+.numbers-section {
+  background-color: $blue-background;
+  padding: 98px 0;
+}
+
+.icon-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  flex: 0 0 auto;
+
+  &__accent-text {
+    color: $whire;
+    line-height: 164%;
+    margin: 0;
+  }
+
+  &__accent-text--font-size {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1;
+    padding-top: 7px;
+  }
+}
+
+.icon-group--padding-left {
+  padding-left: 4px;
+}
+
+
+@media (min-width: 720px) {
+  .icon-group--padding-right {
+    padding-right: 19px;
+  }
+}

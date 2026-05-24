@@ -3,7 +3,6 @@
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.formatOnSave": true,
-
   /* 2. Настройка встроенного форматтера для JavaScript/TypeScript */
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -14,14 +13,12 @@
   "javascript.format.semicolons": "insert",
   "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
   "javascript.format.quoteStyle": "single",
-
   /* 3. Настройка встроенного форматтера для HTML */
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
   "html.format.wrapLineLength": 90,
   "html.format.unformatted": "",
-
   /* 4. Настройка встроенного форматтера для CSS/SCSS/LESS */
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"

@@ -1,0 +1,335 @@
+.visually-hidden{
+  position:absolute;
+  width:1px;
+  height:1px;
+  margin:-1px;
+  border:0;
+  padding:0;
+  clip:rect(0 0 0 0);
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+.container{
+  max-width:1150px;
+  width:100%;
+  margin:0 auto;
+  padding:0 20px;
+}
+
+.container--padding{
+  max-width:1160px;
+  width:100%;
+}
+
+.container--left{
+  padding-left:25px;
+}
+
+.container--flex{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:horizontal;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:row;
+          flex-direction:row;
+  -ms-flex-wrap:wrap;
+      flex-wrap:wrap;
+  -webkit-box-pack:justify;
+      -ms-flex-pack:justify;
+          justify-content:space-between;
+  gap:5px;
+}
+
+.container-process--flex{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:column;
+          flex-direction:column;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  padding-bottom:104px;
+}
+
+*{
+  -webkit-box-sizing:border-box;
+          box-sizing:border-box;
+}
+
+body{
+  font-family:"Roboto", sans-serif;
+  font-size:16px;
+  font-weight:400;
+  line-height:164%;
+}
+
+p{
+  color:rgb(114, 114, 114);
+  margin:0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  color:rgb(0, 0, 0);
+  font-weight:500;
+}
+
+h1{
+  font-size:48px;
+  line-height:1.64;
+  margin-top:152px;
+  margin-bottom:32px;
+  padding:0 0 0 6px;
+}
+
+h2{
+  font-size:32px;
+  font-weight:500;
+  margin:0;
+}
+
+a{
+  text-decoration:none;
+  letter-spacing:0.1em;
+}
+
+ul{
+  padding:0 0 0 6px;
+  margin:0;
+  list-style:none;
+}
+
+li{
+  list-style:none;
+}
+
+.header{
+  padding-top:79px;
+  background-color:rgb(238, 239, 241);
+}
+
+.navigation{
+  max-width:565px;
+  width:100%;
+}
+.navigation__list{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack:justify;
+      -ms-flex-pack:justify;
+          justify-content:space-between;
+  -ms-flex-wrap:wrap;
+      flex-wrap:wrap;
+  gap:15px;
+  padding:0;
+}
+.navigation__link--mod{
+  display:block;
+  line-height:1;
+  color:rgb(0, 0, 0);
+  cursor:pointer;
+  text-transform:uppercase;
+}
+.navigation__link--mod:hover{
+  color:rgb(52, 84, 122);
+  font-weight:500;
+  -webkit-transition:all 1s;
+  transition:all 1s;
+}
+
+.hero-section{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:column;
+          flex-direction:column;
+  -webkit-box-align:start;
+      -ms-flex-align:start;
+          align-items:flex-start;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  background-color:rgb(238, 239, 241);
+}
+.hero-section__paragraf--small{
+  max-width:540px;
+  width:100%;
+  margin-top:0;
+  margin-bottom:59px;
+  padding:0 0 0 5px;
+}
+.hero-section__button{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  -webkit-box-sizing:border-box;
+          box-sizing:border-box;
+  margin:0 0 0 6px;
+  width:100%;
+  max-width:225px;
+  height:65px;
+  padding:0 15px !important;
+  background-color:rgb(52, 84, 122);
+  color:rgb(255, 255, 255);
+  border:none;
+  outline:none;
+  margin-bottom:141px;
+  letter-spacing:0.1em;
+  text-align:center;
+}
+.hero-section__button:hover{
+  cursor:pointer;
+}
+
+.about-content{
+  margin:0 auto;
+  max-width:540px;
+  width:100%;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:column;
+          flex-direction:column;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+}
+.about-content__tittle--indent{
+  font-weight:500;
+  margin:0;
+  padding:117px 0 45px;
+}
+.about-content__paragraf{
+  font-size:16px;
+  line-height:1.64;
+  text-align:center;
+  padding-bottom:90px;
+  letter-spacing:0;
+}
+
+.numbers-section{
+  background-color:rgb(52, 84, 122);
+  padding:98px 0;
+}
+
+.icon-group{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:horizontal;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:row;
+          flex-direction:row;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  gap:20px;
+  -webkit-box-flex:0;
+      -ms-flex:0 0 auto;
+          flex:0 0 auto;
+}
+.icon-group__accent-text{
+  color:rgb(255, 255, 255);
+  line-height:164%;
+  margin:0;
+}
+.icon-group__accent-text--font-size{
+  font-size:21px;
+  font-weight:500;
+  line-height:1;
+  padding-top:7px;
+}
+
+.icon-group--padding-left{
+  padding-left:4px;
+}
+.process-section{
+  background-color:rgb(238, 239, 241);
+}
+.process-section__tittle--mod{
+  padding:106px 0px 45px;
+}
+.process-section__text--mod{
+  max-width:540px;
+  width:100%;
+  text-align:center;
+  padding-bottom:50px;
+}
+
+.block-img{
+  max-width:1110px;
+  width:100%;
+}
+.block-img__foto{
+  display:block;
+  width:100%;
+  height:auto;
+}
+.block-img__foto--mod{
+  background-color:rgba(0, 0, 0, 0.65);
+}
+.block-img__icon{
+  z-index:3;
+  width:15%;
+  max-width:100px;
+  min-width:45px;
+  height:auto;
+}
+.block-img__icon--position{
+  position:absolute;
+  top:50%;
+  left:50%;
+  -webkit-transform:translate(-50%, -50%);
+      -ms-transform:translate(-50%, -50%);
+          transform:translate(-50%, -50%);
+}
+
+.block-img--position{
+  position:relative;
+}
+
+.contacts{
+  background-color:rgb(52, 84, 122);
+}
+
+.info--pad{
+  padding:50px 0;
+}
+
+.info__title{
+  font-size:21px;
+  font-weight:500;
+  margin-top:0;
+  margin-bottom:8px;
+}
+.info__text{
+  font-size:13px;
+}
+.info__title--white-size, .info__text--white-size{
+  color:rgb(255, 255, 255);
+}
+@media (min-width: 720px){
+  .icon-group--padding-right{
+    padding-right:19px;
+  }
+}
