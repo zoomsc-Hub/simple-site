@@ -1,7 +1,5 @@
 @use '../abstracts' as *;
 
-.icon-group__text-group {}
-
 .numbers-section {
   background-color: $blue-background;
   padding: 98px 0;
@@ -13,8 +11,6 @@
   align-items: center;
   gap: 20px;
   flex: 0 0 auto;
-
-
 
   &--padding-right {
     @media (min-width: 720px) {

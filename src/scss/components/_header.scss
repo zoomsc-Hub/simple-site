@@ -1,6 +1,5 @@
 @use '../abstracts' as *;
 
-
 .header {
   padding-top: 79px;
   background-color: $gray-background;
@@ -9,8 +8,6 @@
 .navigation {
   max-width: $max-w-nav;
   width: 100%;
-
-
 
   &__list {
     display: flex;
