@@ -1,183 +1,160 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="normalize.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="dist/style.css" />
-    <title>Simple Site</title>
-  </head>
 
-  <body>
-    <header class="header">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Simple Site</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li>
+            <a href="#" class="navigation__link--mod">Home</a>
+          </li>
+          <li>
+            <a href="#" class="navigation__link--mod">About</a>
+          </li>
+          <li>
+            <a href="#" class="navigation__link--mod">Works</a>
+          </li>
+          <li>
+            <a href="#" class="navigation__link--mod">Process</a>
+          </li>
+          <li>
+            <a href="#" class="navigation__link--mod">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero-section">
       <div class="container">
-        <nav class="navigation">
-          <ul class="navigation__list">
-            <li>
-              <a href="#" class="navigation__link--mod">Home</a>
-            </li>
-            <li>
-              <a href="#" class="navigation__link--mod">About</a>
-            </li>
-            <li>
-              <a href="#" class="navigation__link--mod">Works</a>
-            </li>
-            <li>
-              <a href="#" class="navigation__link--mod">Process</a>
-            </li>
-            <li>
-              <a href="#" class="navigation__link--mod">Contacts</a>
-            </li>
-          </ul>
-        </nav>
+        <h1>Design and Layout</h1>
+        <p class="hero-section__paragraf hero-section__paragraf--small">
+          Lorem Ipsum is a placeholder text commonly used in printing and web design.
+          Lorem Ipsum has been the standard dummy text for Latin scripts since the 16th
+          century.
+        </p>
+        <button type="button" class="hero-section__button">WRITE TO ME</button>
       </div>
-    </header>
-    <main>
-      <section class="hero-section">
-        <div class="container">
-          <h1>Design and Layout</h1>
-          <p class="hero-section__paragraf hero-section__paragraf--small">
-            Lorem Ipsum is a placeholder text commonly used in printing and web
-            design. Lorem Ipsum has been the standard dummy text for Latin
-            scripts since the 16th century.
-          </p>
-          <button type="button" class="hero-section__button">
-            WRITE TO ME
-          </button>
-        </div>
-      </section>
-      <section class="about-section">
-        <div class="container container--padding">
-          <div class="about-content about-content--center">
-            <h2 class="about-content__tittle about-content__tittle--indent">
-              About Me
-            </h2>
-            <p class="about-content__paragraf">
-              Lorem Ipsum is a placeholder text commonly used in printing and
-              web design. Lorem Ipsum has been the standard dummy text for Latin
-              scripts since the 16th century.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="numbers-section">
-        <h2 class="visually-hidden">Наши достижения в цифрах</h2>
-
-        <div class="container container--flex">
-          <div class="icon-group icon-group--padding-left">
-            <img src="img/project.svg" alt="Иконка листа" />
-            <div class="icon-group__text-group">
-              <h3
-                class="icon-group__accent-text icon-group__accent-text--font-size"
-              >
-                40+
-              </h3>
-              <p class="icon-group__accent-text">projects</p>
-            </div>
-          </div>
-
-          <div class="icon-group">
-            <img src="img/project.svg" alt="Иконка листа" />
-            <div class="icon-group__text-group">
-              <h3
-                class="icon-group__accent-text icon-group__accent-text--font-size"
-              >
-                40+
-              </h3>
-              <p class="icon-group__accent-text">projects</p>
-            </div>
-          </div>
-
-          <div class="icon-group">
-            <img src="img/project.svg" alt="Иконка листа" />
-            <div class="icon-group__text-group">
-              <h3
-                class="icon-group__accent-text icon-group__accent-text--font-size"
-              >
-                40+
-              </h3>
-              <p class="icon-group__accent-text">projects</p>
-            </div>
-          </div>
-
-          <div class="icon-group">
-            <img src="img/project.svg" alt="Иконка листа" />
-            <div class="icon-group__text-group">
-              <h3
-                class="icon-group__accent-text icon-group__accent-text--font-size"
-              >
-                40+
-              </h3>
-              <p class="icon-group__accent-text">projects</p>
-            </div>
-          </div>
-
-          <div class="icon-group">
-            <img src="img/project.svg" alt="Иконка листа" />
-            <div class="icon-group__text-group">
-              <h3
-                class="icon-group__accent-text icon-group__accent-text--font-size"
-              >
-                40+
-              </h3>
-              <p class="icon-group__accent-text">projects</p>
-            </div>
-          </div>
-
-          <div class="icon-group icon-group--padding-right">
-            <img src="img/project.svg" alt="Иконка листа" />
-            <div class="icon-group__text-group">
-              <h3
-                class="icon-group__accent-text icon-group__accent-text--font-size"
-              >
-                40+
-              </h3>
-              <p class="icon-group__accent-text">projects</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="process-section">
-        <div class="container container-process--flex">
-          <h2 class="process-section__tittle process-section__tittle--mod">
-            How I Work
-          </h2>
-          <p class="process-section__text process-section__text--mod">
-            Lorem Ipsum is a placeholder text commonly used in printing and web
-            design. Lorem Ipsum has been the standard dummy text for Latin
-            scripts since the 16th century.
-          </p>
-          <div class="block-img block-img--position">
-            <img
-              src="img/img-video.png"
-              alt="картинка с видео"
-              class="block-img__foto block-img__foto--mod"
-            />
-            <img
-              src="img/play-button.svg"
-              alt="иконка плей"
-              class="block-img__icon block-img__icon--position"
-            />
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer class="contacts">
-      <div class="container container--left">
-        <div class="info info--pad">
-          <h3 class="info__title info__title--white-size">Ostap Ivanenko</h3>
-          <p class="info__text info__text--white-size">
-            &copy; 2018. All rights reserved.
+    </section>
+    <section class="about-section">
+      <div class="container container--padding">
+        <div class="about-content">
+          <h2 class="about-content__tittle about-content__tittle--indent">About Me</h2>
+          <p class="about-content__paragraf">
+            Lorem Ipsum is a placeholder text commonly used in printing and web design.
+            Lorem Ipsum has been the standard dummy text for Latin scripts since the
+            16th century.
           </p>
         </div>
       </div>
-    </footer>
-  </body>
-  <!--  -->
+    </section>
+    <section class="numbers-section">
+      <h2 class="visually-hidden">Наши достижения в цифрах</h2>
+
+      <div class="container container--flex">
+        <div class="icon-group icon-group--padding-left">
+          <img src="img/project.svg" alt="Иконка листа">
+          <div class="icon-group__text-group">
+            <h3 class="icon-group__accent-text icon-group__accent-text--font-size">
+              40+
+            </h3>
+            <p class="icon-group__accent-text">projects</p>
+          </div>
+        </div>
+
+        <div class="icon-group">
+          <img src="img/project.svg" alt="Иконка листа">
+          <div class="icon-group__text-group">
+            <h3 class="icon-group__accent-text icon-group__accent-text--font-size">
+              40+
+            </h3>
+            <p class="icon-group__accent-text">projects</p>
+          </div>
+        </div>
+
+        <div class="icon-group">
+          <img src="img/project.svg" alt="Иконка листа">
+          <div class="icon-group__text-group">
+            <h3 class="icon-group__accent-text icon-group__accent-text--font-size">
+              40+
+            </h3>
+            <p class="icon-group__accent-text">projects</p>
+          </div>
+        </div>
+
+        <div class="icon-group">
+          <img src="img/project.svg" alt="Иконка листа">
+          <div class="icon-group__text-group">
+            <h3 class="icon-group__accent-text icon-group__accent-text--font-size">
+              40+
+            </h3>
+            <p class="icon-group__accent-text">projects</p>
+          </div>
+        </div>
+
+        <div class="icon-group">
+          <img src="img/project.svg" alt="Иконка листа">
+          <div class="icon-group__text-group">
+            <h3 class="icon-group__accent-text icon-group__accent-text--font-size">
+              40+
+            </h3>
+            <p class="icon-group__accent-text">projects</p>
+          </div>
+        </div>
+
+        <div class="icon-group icon-group--padding-right">
+          <img src="img/project.svg" alt="Иконка листа">
+          <div class="icon-group__text-group">
+            <h3 class="icon-group__accent-text icon-group__accent-text--font-size">
+              40+
+            </h3>
+            <p class="icon-group__accent-text">projects</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="process-section">
+      <div class="container container-process--flex">
+        <h2 class="process-section__tittle process-section__tittle--mod">How I Work</h2>
+        <p class="process-section__text process-section__text--mod">
+          Lorem Ipsum is a placeholder text commonly used in printing and web design.
+          Lorem Ipsum has been the standard dummy text for Latin scripts since the 16th
+          century.
+        </p>
+        <div class="block-img block-img--position">
+          <img src="img/img-video.png" alt="картинка с видео"
+            class="block-img__foto block-img__foto--mod">
+          <img src="img/play-button.svg" alt="иконка плей"
+            class="block-img__icon block-img__icon--position">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="contacts">
+    <div class="container container--left">
+      <div class="info info--pad">
+        <h3 class="info__title info__title--white-size">Ostap Ivanenko</h3>
+        <p class="info__text info__text--white-size">
+          &copy; 2018. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+
 </html>
